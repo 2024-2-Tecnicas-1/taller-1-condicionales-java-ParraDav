@@ -13,6 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * @author danielsanchez
  */
 public class SetDeTenisTest {
+
     @Test
     public void testAunNoTermina1() {
         String valorEsperado = "Aún no termina";
@@ -33,7 +34,7 @@ public class SetDeTenisTest {
         String valorActual = SetDeTenis.evaluar(6, 6);
         assertEquals(valorEsperado, valorActual);
     }
-    
+
     @Test
     public void testGanoA1() {
         String valorEsperado = "Ganó A";
